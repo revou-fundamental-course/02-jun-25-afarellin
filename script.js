@@ -1,6 +1,6 @@
 window.onload = function() {
   const userName = prompt("Please enter your name:");
-  document.getElementById("welcome").innerText = `Hi ${userName}, Welcome To Website`;
+  document.getElementById("welcome").innerText = `Hi ${userName}, Welcome to our school's website!`;
 
   const form = document.getElementById("contactForm");
   form.addEventListener("submit", function(e) {
